@@ -1,0 +1,15 @@
+[
+    {
+      "title": "Robot suiveur de ligne",
+      "description": "Robot autonome qui suit une ligne grâce à des capteurs infrarouges.",
+      "media": "assets/images/Optimus.jpg",
+      "type": "image"
+    },
+    {
+      "title": "Bras robotisé",
+      "description": "Contrôlé via une interface web en temps réel.",
+      "media": "assets/images/walli.jpg",
+      "type": "video"
+    }
+  ]
+  
