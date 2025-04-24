@@ -1,0 +1,26 @@
+<section class="about-me">
+    <h2>À propos de moi</h2>
+    <p>
+      Je suis un passionné de robotique et de développement logiciel embarqué. Je conçois des robots
+      autonomes, développe leurs cerveaux et adore apprendre par la pratique.
+    </p>
+    <button (click)="openModal()">Voir mon CV</button>
+  
+    <!-- Modale -->
+    <div class="modal-backdrop" *ngIf="showModal" (click)="closeModal()">
+      <div class="modal-content" (click)="$event.stopPropagation()">
+        <button class="close" (click)="closeModal()">✖</button>
+        <h3>Mon CV</h3>
+        <iframe
+          src="assets/cv.pdf"
+          width="100%"
+          height="500px"
+          style="border: none;"
+        ></iframe>
+        <a href="assets/cv.pdf" download>
+          <button class="download-btn">Télécharger le CV</button>
+        </a>
+      </div>
+    </div>
+  </section>
+  
