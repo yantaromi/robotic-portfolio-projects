@@ -1,0 +1,7 @@
+.main-content {
+    margin-left: 0;
+  
+    @media (min-width: 768px) {
+      margin-left: 350px; // même largeur que ton header à gauche
+    }
+  }

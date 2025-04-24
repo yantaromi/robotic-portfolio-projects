@@ -1,0 +1,24 @@
+.project-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 1rem;
+    max-width: 400px;
+  
+    img, video {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+  
+    h3 {
+      margin: 0.5rem 0;
+      font-size: 1.2rem;
+    }
+  
+    p {
+      color: #555;
+    }
+  }
+  

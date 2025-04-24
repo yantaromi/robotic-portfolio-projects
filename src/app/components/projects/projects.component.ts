@@ -1,22 +1,28 @@
 import { Component } from '@angular/core';
-import projectsData from '../../../data/projets.json';
 import { CommonModule } from '@angular/common';
+import projectsData from '../../../data/projets.json';
+import { ProjectCardComponent } from '../project-card/project-card.component';
+
+
+type ProjectType = 'image' | 'video';
 
 interface Project {
   title: string;
   description: string;
   media: string;
-  type: 'image' | 'video';
+  type: ProjectType;
 }
 
 @Component({
   selector: 'app-projects',
   standalone: true,
-  imports: [CommonModule],
+  imports: [ CommonModule, ProjectCardComponent],
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent {
-  projects: Project[] = projectsData as Project[];
-
+  projects: Project[] = (projectsData as any[]).map(p => ({
+    ...p,
+    type: p.type as ProjectType
+  }));
 }

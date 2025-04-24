@@ -1,1 +1,9 @@
-<p>project-card works!</p>
+<div class="project-card">
+    <ng-container [ngSwitch]="type">
+      <img *ngSwitchCase="'image'" [src]="media" alt="{{ title }}" />
+      <video *ngSwitchCase="'video'" [src]="media" controls></video>
+    </ng-container>
+    <h3>{{ title }}</h3>
+    <p>{{ description }}</p>
+  </div>
+  
