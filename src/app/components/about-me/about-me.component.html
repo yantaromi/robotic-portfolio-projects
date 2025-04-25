@@ -1,10 +1,14 @@
 <section class="about-me">
     <h2>À propos de moi</h2>
-    <p>
-      Je suis un passionné de robotique et de développement logiciel embarqué. Je conçois des robots
-      autonomes, développe leurs cerveaux et adore apprendre par la pratique.
-    </p>
-    <button (click)="openModal()">Voir mon CV</button>
+  
+    <div class="description-container">
+      <p>
+        Ingénieur diplômé en systèmes embarqués, je me spécialise dans le développement de systèmes robotiques 
+        mêlant électronique, logique embarquée et algorithmie. Ce site présente une sélection de projets personnels 
+        menés en parallèle de mon parcours professionnel.
+      </p>
+      <button (click)="openModal()">Voir mon CV</button>
+    </div> <!-- 🔧 fermeture manquante ajoutée ici -->
   
     <!-- Modale -->
     <div class="modal-backdrop" *ngIf="showModal" (click)="closeModal()">

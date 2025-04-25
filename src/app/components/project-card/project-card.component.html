@@ -1,9 +1,31 @@
 <div class="project-card">
-    <ng-container [ngSwitch]="type">
-      <img *ngSwitchCase="'image'" [src]="media" alt="{{ title }}" />
-      <video *ngSwitchCase="'video'" [src]="media" controls></video>
-    </ng-container>
-    <h3>{{ title }}</h3>
-    <p>{{ description }}</p>
+  <!-- Media : image ou vidéo -->
+  <ng-container [ngSwitch]="type">
+    <img *ngSwitchCase="'image'" [src]="media" [alt]="title" />
+    <video *ngSwitchCase="'video'" [src]="media" controls></video>
+  </ng-container>
+
+  <!-- Titre -->
+  <h3>{{ title }}</h3>
+
+  <!-- Description : paragraphes -->
+  <div *ngFor="let paragraph of formattedDescription">
+    <p>{{ paragraph }}</p>
   </div>
-  
+
+  <!-- Détails -->
+  <div *ngIf="details?.length">
+    <h4>Détails techniques :</h4>
+    <ul>
+      <li *ngFor="let d of details">{{ d }}</li>
+    </ul>
+  </div>
+
+  <!-- Compétences -->
+  <div *ngIf="skills?.length">
+    <h4>Compétences utilisées :</h4>
+    <ul>
+      <li *ngFor="let skill of skills">{{ skill }}</li>
+    </ul>
+  </div>
+</div>

@@ -1,17 +1,231 @@
-[
-    {
-      "title": "Robot suiveur de ligne",
-      "description": "Robot autonome qui suit une ligne grâce à des capteurs infrarouges.",
-      "media": "assets/Walli.PNG",
-      "type": "image"
-    },
-  
-    {
-      "title": "Bras Robotique en téléoperation",
-      "description": "Robot autonome qui suit une ligne grâce à des capteurs infrarouges. Servo moteurs ",
-      "media": "assets/images/Optimus.PNG",
-      "type": "image"
-    }
 
-  ]
-   
+[
+  {
+  "title": "Robot suiveur de ligne",
+  "description": [
+    "Ce robot est capable de suivre une ligne noire sur fond blanc grâce à une série de capteurs infrarouges.",
+    "Il ajuste sa direction en temps réel à l’aide d’un algorithme de correction proportionnelle simple."
+  ],
+  "details": [
+    "Arduino Uno",
+    "Capteurs infrarouges",
+    "Structure imprimée 3D"
+  ],
+  "skills": [
+    "Arduino C++",
+    "Algorithme de suivi de ligne",
+    "Électronique de base"
+  ],
+  "media": "assets/Walli.PNG",
+  "type": "image"
+},
+
+  {
+  "title": "Robot suiveur de ligne",
+  "description": [
+    "Ce robot est capable de suivre une ligne noire sur fond blanc grâce à une série de capteurs infrarouges.",
+    "Il ajuste sa direction en temps réel à l’aide d’un algorithme de correction proportionnelle simple."
+  ],
+  "details": [
+    "Arduino Uno",
+    "Capteurs infrarouges",
+    "Structure imprimée 3D"
+  ],
+  "skills": [
+    "Arduino C++",
+    "Algorithme de suivi de ligne",
+    "Électronique de base"
+  ],
+  "media": "assets/Walli.PNG",
+  "type": "image"
+}
+,
+
+  {
+  "title": "Robot suiveur de ligne",
+  "description": [
+    "Ce robot est capable de suivre une ligne noire sur fond blanc grâce à une série de capteurs infrarouges.",
+    "Il ajuste sa direction en temps réel à l’aide d’un algorithme de correction proportionnelle simple."
+  ],
+  "details": [
+    "Arduino Uno",
+    "Capteurs infrarouges",
+    "Structure imprimée 3D"
+  ],
+  "skills": [
+    "Arduino C++",
+    "Algorithme de suivi de ligne",
+    "Électronique de base"
+  ],
+  "media": "assets/Walli.PNG",
+  "type": "image"
+}
+,
+
+  {
+  "title": "Robot suiveur de ligne",
+  "description": [
+    "Ce robot est capable de suivre une ligne noire sur fond blanc grâce à une série de capteurs infrarouges.",
+    "Il ajuste sa direction en temps réel à l’aide d’un algorithme de correction proportionnelle simple."
+  ],
+  "details": [
+    "Arduino Uno",
+    "Capteurs infrarouges",
+    "Structure imprimée 3D"
+  ],
+  "skills": [
+    "Arduino C++",
+    "Algorithme de suivi de ligne",
+    "Électronique de base"
+  ],
+  "media": "assets/Walli.PNG",
+  "type": "image"
+}
+,
+
+  {
+  "title": "Robot suiveur de ligne",
+  "description": [
+    "Ce robot est capable de suivre une ligne noire sur fond blanc grâce à une série de capteurs infrarouges.",
+    "Il ajuste sa direction en temps réel à l’aide d’un algorithme de correction proportionnelle simple."
+  ],
+  "details": [
+    "Arduino Uno",
+    "Capteurs infrarouges",
+    "Structure imprimée 3D"
+  ],
+  "skills": [
+    "Arduino C++",
+    "Algorithme de suivi de ligne",
+    "Électronique de base"
+  ],
+  "media": "assets/Walli.PNG",
+  "type": "image"
+}
+,
+
+  {
+  "title": "Robot suiveur de ligne",
+  "description": [
+    "Ce robot est capable de suivre une ligne noire sur fond blanc grâce à une série de capteurs infrarouges.",
+    "Il ajuste sa direction en temps réel à l’aide d’un algorithme de correction proportionnelle simple."
+  ],
+  "details": [
+    "Arduino Uno",
+    "Capteurs infrarouges",
+    "Structure imprimée 3D"
+  ],
+  "skills": [
+    "Arduino C++",
+    "Algorithme de suivi de ligne",
+    "Électronique de base"
+  ],
+  "media": "assets/Walli.PNG",
+  "type": "image"
+}
+,
+
+  {
+  "title": "Robot suiveur de ligne",
+  "description": [
+    "Ce robot est capable de suivre une ligne noire sur fond blanc grâce à une série de capteurs infrarouges.",
+    "Il ajuste sa direction en temps réel à l’aide d’un algorithme de correction proportionnelle simple."
+  ],
+  "details": [
+    "Arduino Uno",
+    "Capteurs infrarouges",
+    "Structure imprimée 3D"
+  ],
+  "skills": [
+    "Arduino C++",
+    "Algorithme de suivi de ligne",
+    "Électronique de base"
+  ],
+  "media": "assets/Walli.PNG",
+  "type": "image"
+}
+,
+
+  {
+  "title": "Robot suiveur de ligne",
+  "description": [
+    "Ce robot est capable de suivre une ligne noire sur fond blanc grâce à une série de capteurs infrarouges.",
+    "Il ajuste sa direction en temps réel à l’aide d’un algorithme de correction proportionnelle simple."
+  ],
+  "details": [
+    "Arduino Uno",
+    "Capteurs infrarouges",
+    "Structure imprimée 3D"
+  ],
+  "skills": [
+    "Arduino C++",
+    "Algorithme de suivi de ligne",
+    "Électronique de base"
+  ],
+  "media": "assets/Walli.PNG",
+  "type": "image"
+}
+,
+
+  {
+  "title": "Robot suiveur de ligne",
+  "description": [
+    "Ce robot est capable de suivre une ligne noire sur fond blanc grâce à une série de capteurs infrarouges.",
+    "Il ajuste sa direction en temps réel à l’aide d’un algorithme de correction proportionnelle simple."
+  ],
+  "details": [
+    "Arduino Uno",
+    "Capteurs infrarouges",
+    "Structure imprimée 3D"
+  ],
+  "skills": [
+    "Arduino C++",
+    "Algorithme de suivi de ligne",
+    "Électronique de base"
+  ],
+  "media": "assets/Walli.PNG",
+  "type": "image"
+}
+,
+
+  {
+  "title": "Robot suiveur de ligne",
+  "description": [
+    "Ce robot est capable de suivre une ligne noire sur fond blanc grâce à une série de capteurs infrarouges.",
+    "Il ajuste sa direction en temps réel à l’aide d’un algorithme de correction proportionnelle simple."
+  ],
+  "details": [
+    "Arduino Uno",
+    "Capteurs infrarouges",
+    "Structure imprimée 3D"
+  ],
+  "skills": [
+    "Arduino C++",
+    "Algorithme de suivi de ligne",
+    "Électronique de base"
+  ],
+  "media": "assets/Walli.PNG",
+  "type": "image"
+}
+,
+
+  {
+  "title": "Robot suiveur de ligne",
+  "description": [
+    "Ce robot est capable de suivre une ligne noire sur fond blanc grâce à une série de capteurs infrarouges.",
+    "Il ajuste sa direction en temps réel à l’aide d’un algorithme de correction proportionnelle simple."
+  ],
+  "details": [
+    "Arduino Uno",
+    "Capteurs infrarouges",
+    "Structure imprimée 3D"
+  ],
+  "skills": [
+    "Arduino C++",
+    "Algorithme de suivi de ligne",
+    "Électronique de base"
+  ],
+  "media": "assets/Walli.PNG",
+  "type": "image"
+}
+]

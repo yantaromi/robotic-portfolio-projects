@@ -1,10 +1,12 @@
 <div class="projects-container">
-    <app-project-card
+      <app-project-card
       *ngFor="let project of projects"
       [title]="project.title"
       [description]="project.description"
       [media]="project.media"
       [type]="project.type"
+      [details]="project.details || []"
+      [skills]="project.skills || []"
     ></app-project-card>
-  </div>
+</div>
   
