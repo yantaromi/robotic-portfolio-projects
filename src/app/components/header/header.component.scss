@@ -1,63 +1,74 @@
 // Conteneur principal du header (positionné en haut sur mobile, à gauche sur desktop)
 .responsive-header {
-    display: flex;
-    flex-direction: column; // par défaut : empile les éléments (mobile)
-    align-items: center;    // centre le contenu horizontalement
-    background-color: #0a1a2f; // bleu nuit
-    color: white;
-    padding: 2rem;          // espace intérieur (modifiable)
-    gap: 1rem;              // espace entre chaque élément (image / texte / liste)
+  display: flex;
+  flex-direction: column; // mobile : éléments empilés
+  align-items: center;    // centrer horizontalement
+  background-color: #0a1a2f; // bleu nuit
+  color: white;
+  padding: 2rem;
+  gap: 1rem;
+  height: auto;
+  width: 100%;
+  overflow-y: auto; // si jamais ça déborde sur petits écrans
   
-    // 📸 Photo de profil
-    .profile-pic {
-      width: 180px;         // largeur de la photo (modifie ici pour l’agrandir ou réduire)
-      border-radius: 50%;   // rend la photo ronde
-      border: 3px solid white;
+  .profile-pic {
+    width: 180px;
+    border-radius: 50%;
+    border: 3px solid white;
+  }
+
+  .infos {
+    margin-top: 0rem;
+    margin-bottom: 5rem;
+   
+    h1 {
+      margin: 1.5rem 0 0.5rem 0;
+      font-size: 1.8rem;
     }
-  
-    // 📄 Infos personnelles (nom, job, email, etc.)
-    .infos {
-      text-align: center;   // centré par défaut
-  
-      h1 {
-        margin: 1.5rem 0;   // espace au-dessus et en dessous du nom
-        font-size: 1.8rem;  // taille du nom (modifiable)
-      }
-  
-      p {
-        font-size: 1.5rem;  // taille du sous-titre (job)
-        margin-bottom: 6rem;
-      }
-  
-      ul {
-        list-style: none;   // retire les puces
-        padding: 0;
-      }
-  
-      li {
-        margin: 1rem 0;   // espace entre chaque ligne
-        font-size: 1.5rem; // taille du texte des infos (modifiable)
-      }
+
+    p {
+      font-size: 1.5rem;
+      margin-bottom: 4rem;
     }
-  
-    // 🖥️ Version desktop : le header passe à gauche de l’écran
-    @media (min-width: 768px) {
-      position: fixed;      // fixe le header à gauche
-      top: 0;
-      left: 0;
-      bottom: 0;
-      width: 350px;         // 👉 largeur du header sur PC (modifiable)
-      flex-direction: column;
-      align-items: flex-start;
-      padding: 2rem 1rem;
-  
-      .infos {
-        text-align: left;   // aligne le texte à gauche en version desktop
-      }
-      .header-top{
-        margin-left: 2.5rem;
-        margin-bottom: 3rem;
-      }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin: 1rem 0;
+      font-size: 1.4rem;
     }
   }
-  
+
+  .header-photo {
+    margin-left: 2rem;
+  }
+
+  @media (min-width: 768px) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 320px; // Légèrement réduit pour mieux s'adapter
+    height: 100vh;
+    overflow-y: auto; // active le scroll vertical si besoin
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+
+
+    .header-top {
+      margin-left: 0;
+      margin-bottom: 1rem;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .header-identity{
+      margin-bottom: 0rem;
+    }
+  }
+}

@@ -1,231 +1,65 @@
 
 [
   {
-  "title": "Robot suiveur de ligne",
+    "title": "Robot suiveur de ligne",
+    "description": [
+      "Ce robot est capable de ce déplacé dans l'espace via une application téléphone. Il est aussi capable de ce déplacer d'une maniere autonome, de détecter des obstacles et de les éviter"
+    ],
+    "details": [
+      "Microcontroleur: Arduino Uno",
+      "détections d'obstacles: Capteurs infrarouges",
+      "Structure imprimée 3D",
+      "types de moteurs: Servomoteurs",
+      "capteur bluetooth "
+    ],
+    "skills": [
+      "Arduino C++",
+      "Algorithme déplacement", "Algorithme détection d'obstacles",
+      "Électronique",
+      "Impression 3D",
+      "Instrumentation"
+      ],
+    "media": "assets/images/Robot mobile.jpg",
+    "type": "image"
+  },
+  
+  {
+  "title": "Recyclage bouteilles plastique pour impression 3D",
   "description": [
-    "Ce robot est capable de suivre une ligne noire sur fond blanc grâce à une série de capteurs infrarouges.",
-    "Il ajuste sa direction en temps réel à l’aide d’un algorithme de correction proportionnelle simple."
+    "Cette machine permet de transphormé des bouteilles plastique en filament pour l'impression 3D"
   ],
   "details": [
-    "Arduino Uno",
-    "Capteurs infrarouges",
-    "Structure imprimée 3D"
+    "Moteur Pas a pas",
+    "Impression 3D",
+    "programmation Gcode"
   ],
   "skills": [
-    "Arduino C++",
-    "Algorithme de suivi de ligne",
-    "Électronique de base"
+    "Gcode",
+    "Utilisation de logiciels d'impression 3D (Cura)",
+    "Modélisation 3D",
+    "Solidworks"
   ],
-  "media": "assets/Walli.PNG",
+  "media": "assets/images/recyclage bouteille.jpg",
   "type": "image"
 },
-
-  {
-  "title": "Robot suiveur de ligne",
-  "description": [
-    "Ce robot est capable de suivre une ligne noire sur fond blanc grâce à une série de capteurs infrarouges.",
-    "Il ajuste sa direction en temps réel à l’aide d’un algorithme de correction proportionnelle simple."
-  ],
-  "details": [
-    "Arduino Uno",
-    "Capteurs infrarouges",
-    "Structure imprimée 3D"
-  ],
-  "skills": [
-    "Arduino C++",
-    "Algorithme de suivi de ligne",
-    "Électronique de base"
-  ],
-  "media": "assets/Walli.PNG",
-  "type": "image"
-}
-,
-
-  {
-  "title": "Robot suiveur de ligne",
-  "description": [
-    "Ce robot est capable de suivre une ligne noire sur fond blanc grâce à une série de capteurs infrarouges.",
-    "Il ajuste sa direction en temps réel à l’aide d’un algorithme de correction proportionnelle simple."
-  ],
-  "details": [
-    "Arduino Uno",
-    "Capteurs infrarouges",
-    "Structure imprimée 3D"
-  ],
-  "skills": [
-    "Arduino C++",
-    "Algorithme de suivi de ligne",
-    "Électronique de base"
-  ],
-  "media": "assets/Walli.PNG",
-  "type": "image"
-}
-,
-
-  {
-  "title": "Robot suiveur de ligne",
-  "description": [
-    "Ce robot est capable de suivre une ligne noire sur fond blanc grâce à une série de capteurs infrarouges.",
-    "Il ajuste sa direction en temps réel à l’aide d’un algorithme de correction proportionnelle simple."
-  ],
-  "details": [
-    "Arduino Uno",
-    "Capteurs infrarouges",
-    "Structure imprimée 3D"
-  ],
-  "skills": [
-    "Arduino C++",
-    "Algorithme de suivi de ligne",
-    "Électronique de base"
-  ],
-  "media": "assets/Walli.PNG",
-  "type": "image"
-}
-,
-
-  {
-  "title": "Robot suiveur de ligne",
-  "description": [
-    "Ce robot est capable de suivre une ligne noire sur fond blanc grâce à une série de capteurs infrarouges.",
-    "Il ajuste sa direction en temps réel à l’aide d’un algorithme de correction proportionnelle simple."
-  ],
-  "details": [
-    "Arduino Uno",
-    "Capteurs infrarouges",
-    "Structure imprimée 3D"
-  ],
-  "skills": [
-    "Arduino C++",
-    "Algorithme de suivi de ligne",
-    "Électronique de base"
-  ],
-  "media": "assets/Walli.PNG",
-  "type": "image"
-}
-,
-
-  {
-  "title": "Robot suiveur de ligne",
-  "description": [
-    "Ce robot est capable de suivre une ligne noire sur fond blanc grâce à une série de capteurs infrarouges.",
-    "Il ajuste sa direction en temps réel à l’aide d’un algorithme de correction proportionnelle simple."
-  ],
-  "details": [
-    "Arduino Uno",
-    "Capteurs infrarouges",
-    "Structure imprimée 3D"
-  ],
-  "skills": [
-    "Arduino C++",
-    "Algorithme de suivi de ligne",
-    "Électronique de base"
-  ],
-  "media": "assets/Walli.PNG",
-  "type": "image"
-}
-,
-
-  {
-  "title": "Robot suiveur de ligne",
-  "description": [
-    "Ce robot est capable de suivre une ligne noire sur fond blanc grâce à une série de capteurs infrarouges.",
-    "Il ajuste sa direction en temps réel à l’aide d’un algorithme de correction proportionnelle simple."
-  ],
-  "details": [
-    "Arduino Uno",
-    "Capteurs infrarouges",
-    "Structure imprimée 3D"
-  ],
-  "skills": [
-    "Arduino C++",
-    "Algorithme de suivi de ligne",
-    "Électronique de base"
-  ],
-  "media": "assets/Walli.PNG",
-  "type": "image"
-}
-,
-
-  {
-  "title": "Robot suiveur de ligne",
-  "description": [
-    "Ce robot est capable de suivre une ligne noire sur fond blanc grâce à une série de capteurs infrarouges.",
-    "Il ajuste sa direction en temps réel à l’aide d’un algorithme de correction proportionnelle simple."
-  ],
-  "details": [
-    "Arduino Uno",
-    "Capteurs infrarouges",
-    "Structure imprimée 3D"
-  ],
-  "skills": [
-    "Arduino C++",
-    "Algorithme de suivi de ligne",
-    "Électronique de base"
-  ],
-  "media": "assets/Walli.PNG",
-  "type": "image"
-}
-,
-
-  {
-  "title": "Robot suiveur de ligne",
-  "description": [
-    "Ce robot est capable de suivre une ligne noire sur fond blanc grâce à une série de capteurs infrarouges.",
-    "Il ajuste sa direction en temps réel à l’aide d’un algorithme de correction proportionnelle simple."
-  ],
-  "details": [
-    "Arduino Uno",
-    "Capteurs infrarouges",
-    "Structure imprimée 3D"
-  ],
-  "skills": [
-    "Arduino C++",
-    "Algorithme de suivi de ligne",
-    "Électronique de base"
-  ],
-  "media": "assets/Walli.PNG",
-  "type": "image"
-}
-,
-
-  {
-  "title": "Robot suiveur de ligne",
-  "description": [
-    "Ce robot est capable de suivre une ligne noire sur fond blanc grâce à une série de capteurs infrarouges.",
-    "Il ajuste sa direction en temps réel à l’aide d’un algorithme de correction proportionnelle simple."
-  ],
-  "details": [
-    "Arduino Uno",
-    "Capteurs infrarouges",
-    "Structure imprimée 3D"
-  ],
-  "skills": [
-    "Arduino C++",
-    "Algorithme de suivi de ligne",
-    "Électronique de base"
-  ],
-  "media": "assets/Walli.PNG",
-  "type": "image"
-}
-,
-
-  {
-  "title": "Robot suiveur de ligne",
-  "description": [
-    "Ce robot est capable de suivre une ligne noire sur fond blanc grâce à une série de capteurs infrarouges.",
-    "Il ajuste sa direction en temps réel à l’aide d’un algorithme de correction proportionnelle simple."
-  ],
-  "details": [
-    "Arduino Uno",
-    "Capteurs infrarouges",
-    "Structure imprimée 3D"
-  ],
-  "skills": [
-    "Arduino C++",
-    "Algorithme de suivi de ligne",
-    "Électronique de base"
-  ],
-  "media": "assets/Walli.PNG",
-  "type": "image"
+  
+{
+"title": "Recyclage bouteilles plastique pour impression 3D",
+"description": [
+  "Cette machine permet de transphormé des bouteilles plastique en filament pour l'impression 3D"
+],
+"details": [
+  "Moteur Pas a pas",
+  "Impression 3D",
+  "programmation Gcode"
+],
+"skills": [
+  "Gcode",
+  "Utilisation de logiciels d'impression 3D (Cura)",
+  "Modélisation 3D",
+  "Solidworks"
+],
+"media": "assets/images/recyclage bouteille.jpg",
+"type": "image"
 }
 ]
