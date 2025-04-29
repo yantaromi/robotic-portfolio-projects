@@ -1,6 +1,27 @@
 
 [
   {
+    "title": "Bras Robotique télé-opéré",
+    "description": [
+      "Ce projet met en œuvre un système de téléopération où un bras robotique est contrôlé à distance par un second bras manipulé directement par un utilisateur. Grâce à cette approche, les mouvements humains sont fidèlement reproduits par le robot, permettant une interaction fluide et intuitive."
+    ],
+    "details": [
+      "Bras rbotique imprimé en 3D",
+      "Utilise un algoritisme de mimitisme entre le bras metre et le bras esclave",
+      "type de moteur: servomoteur",
+      "communication via UART"
+    ],
+    "skills": [
+      "Programmation Python",
+      "Algorithmie",
+      "Solidworks",
+      "Électronique",
+      "Cablage"
+      ],
+    "media": "assets/videos/Manip bras robotiques.mp4",
+    "type": "video"
+  },
+  {
     "title": "Robot suiveur de ligne",
     "description": [
       "Ce robot est capable de ce déplacé dans l'espace via une application téléphone. Il est aussi capable de ce déplacer d'une maniere autonome, de détecter des obstacles et de les éviter"
@@ -41,25 +62,5 @@
   ],
   "media": "assets/images/recyclage bouteille.jpg",
   "type": "image"
-},
-  
-{
-"title": "Recyclage bouteilles plastique pour impression 3D",
-"description": [
-  "Cette machine permet de transphormé des bouteilles plastique en filament pour l'impression 3D"
-],
-"details": [
-  "Moteur Pas a pas",
-  "Impression 3D",
-  "programmation Gcode"
-],
-"skills": [
-  "Gcode",
-  "Utilisation de logiciels d'impression 3D (Cura)",
-  "Modélisation 3D",
-  "Solidworks"
-],
-"media": "assets/images/recyclage bouteille.jpg",
-"type": "image"
 }
 ]
