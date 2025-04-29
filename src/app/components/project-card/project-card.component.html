@@ -1,31 +1,68 @@
 <div class="project-card">
-  <!-- Media : image ou vidéo -->
-  <ng-container [ngSwitch]="type">
-    <img *ngSwitchCase="'image'" [src]="media" [alt]="title" />
-    <video *ngSwitchCase="'video'" [src]="media" controls></video>
-  </ng-container>
+  <!-- Media principal cliquable -->
+  <div class="main-media" (click)="openGallery()">
+    <ng-container *ngIf="media.main.type === 'image'; else video">
+      <img [src]="media.main.url" alt="media principal" />
+    </ng-container>
+    <ng-template #video>
+      <video [src]="media.main.url" controls></video>
+    </ng-template>
+  </div>
 
   <!-- Titre -->
   <h3>{{ title }}</h3>
 
-  <!-- Description : paragraphes -->
-  <div *ngFor="let paragraph of formattedDescription">
-    <p>{{ paragraph }}</p>
+  <!-- Description -->
+  <div *ngIf="formattedDescription.length">
+    <p *ngFor="let desc of formattedDescription">{{ desc }}</p>
   </div>
 
-  <!-- Détails -->
-  <div *ngIf="details?.length" class="details-list">
-    <h4>Détailles techniques</h4>
+  <!-- Détails techniques -->
+  <div class="details-list" *ngIf="details.length">
     <ul>
       <li *ngFor="let d of details">{{ d }}</li>
     </ul>
   </div>
 
   <!-- Compétences -->
-  <div *ngIf="skills?.length" class="skills-container">
-    <h4>Compétences utilisées :</h4>
+  <div class="skills-container" *ngIf="skills.length">
+    <h4>Compétences</h4>
     <div class="skills-list">
-      <span class="skill-tag" *ngFor="let skill of skills">{{ skill }}</span>
+      <div class="skill-tag" *ngFor="let s of skills">{{ s }}</div>
+    </div>
+  </div>
+
+  <!-- Galerie modale -->
+  <div class="modal" *ngIf="showGallery" (click)="closeGallery()">
+    <div class="modal-content" (click)="$event.stopPropagation()">
+      <!-- Bouton de fermeture en haut à droite -->
+      <button class="close-btn" (click)="closeGallery()">✖</button>
+
+      <!-- Navigation gauche -->
+      <button class="nav-arrow prev-arrow" (click)="prev()">⟨</button>
+
+      <!-- Média courant -->
+      <ng-container *ngIf="media.gallery[currentIndex]?.type === 'image'; else galleryVideo">
+        <img [src]="media.gallery[currentIndex].url" />
+      </ng-container>
+      <ng-template #galleryVideo>
+        <video [src]="media.gallery[currentIndex].url" controls autoplay></video>
+      </ng-template>
+
+      <!-- Navigation droite -->
+      <button class="nav-arrow next-arrow" (click)="next()">⟩</button>
+
+      <!-- Vignettes de la galerie -->
+      <div class="gallery-thumbs">
+        <ng-container *ngFor="let item of media.gallery; let i = index">
+          <ng-container *ngIf="item.type === 'image'; else thumbVideo">
+            <img [src]="item.url" (click)="openGallery(i)" />
+          </ng-container>
+          <ng-template #thumbVideo>
+            <video [src]="item.url" (click)="openGallery(i)"></video>
+          </ng-template>
+        </ng-container>
+      </div>
     </div>
   </div>
 </div>

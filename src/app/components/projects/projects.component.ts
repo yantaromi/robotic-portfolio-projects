@@ -3,15 +3,23 @@ import { CommonModule } from '@angular/common';
 import projectsData from '../../../data/projets.json';
 import { ProjectCardComponent } from '../project-card/project-card.component';
 
-type ProjectType = 'image' | 'video';
+// Types
+type MediaType = 'image' | 'video';
+
+interface MediaItem {
+  type: MediaType;
+  url: string;
+}
 
 interface Project {
   title: string;
   description: string[] | string;
-  media: string;
-  type: ProjectType;
-  details?: string[];
-  skills?: string[];
+  details: string[];
+  skills: string[];
+  media: {
+    main: MediaItem;
+    gallery: MediaItem[];
+  };
 }
 
 @Component({
@@ -22,8 +30,14 @@ interface Project {
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent {
-  projects: Project[] = (projectsData as Project[]).map(p => ({
-    ...p,
-    type: p.type as ProjectType
+  projects: Project[] = (projectsData as any[]).map((p) => ({
+    title: p.title,
+    description: p.description,
+    details: p.details ?? [],
+    skills: p.skills ?? [],
+    media: {
+      main: p.media.main,
+      gallery: p.media.gallery ?? []  // <-- Résout l'erreur de type radicalement
+    }
   }));
 }
