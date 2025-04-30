@@ -1,6 +1,6 @@
 [
   {
-    "title": "Bras Robotique télé-opéré",
+    "title": "BRAS ROBOTIQUE TÉLÉ-OPÉRÉ",
     "description": [
       "Ce projet met en œuvre un système de téléopération où un bras robotique est contrôlé à distance par un second bras manipulé directement par un utilisateur. Grâce à cette approche, les mouvements humains sont fidèlement reproduits par le robot, permettant une interaction fluide et intuitive."
     ],
@@ -19,20 +19,94 @@
     ],
     "media": {
       "main": {
-        "type": "video",
-        "url": "assets/videos/Manip bras robotiques.mp4"
+        "type": "image",
+        "url": "assets/images/Bras robotique/Bras robotique3.jpeg"
       },
       "gallery": [
         {
+          "type": "image",
+          "url": "assets/images/Bras robotique/Bras robotique3.jpeg"
+        },
+        {
           "type": "video",
-          "url": "assets/videos/Manip bras robotiques.mp4"
+          "url": "assets/videos/Bras Robotique/Bras robotiques.mp4"
         }
       ]
     }
   },
-  
   {
-    "title": "Robot mobile",
+    "title": "DRONE QUADRICOPTERE",
+    "description": [
+      "J’ai conçu et assemblé un drone quadrirotor en DIY en utilisant le contrôleur de vol Pixhawk. Ce projet m’a permis de maîtriser la configuration d’un système de vol autonome, la calibration des capteurs (gyroscope, accéléromètre, compas), ainsi que le paramétrage de la télémétrie, des moteurs brushless et des modes de vol via Mission Planner."
+    ],
+    "details": [
+      "Contrôleur de vol : Pixhawk avec firmware ArduPilot",
+      "Pilotage : Radiocommande 6 à 8 voies compatible PPM/SBUS",
+      "Télémétrie : Module 433 MHz pour le contrôle via Mission Planner",
+      "Alimentation : Batterie LiPo 3S ou 4S avec module de puissance (Power Module)",
+      "Propulsion : 4 moteurs brushless + ESCs calibrés",
+      "Capteurs : GPS, compas, accéléromètre et gyroscope intégrés pour stabilisation et navigation"
+    ],
+    "skills": [
+      "Configuration Pixhawk",
+      "Pilotage radiocommandé",
+      "Calibration capteurs inertiels",
+      "Intégration télémétrie radio",
+      "Contrôle moteurs brushless",
+      "Planification de vol",
+      "Utilisation Mission Planner",
+      "Gestion alimentation LiPo"
+    ],
+    "media": {
+      "main": {
+        "type": "image",
+          "url": "assets/images/Drone_Pixhawk/Drone_Pixhawk.jpeg"
+      },
+      "gallery": [
+        {
+          "type": "image",
+          "url": "assets/images/Drone_Pixhawk/Drone_Pixhawk.jpeg"
+        }
+      ]
+    }
+  },
+  {
+    "title": "ROBOT MECANUM",
+    "description": [
+      "Ce robot à roues Mecanum est capable de se déplacer dans toutes les directions grâce à la configuration particulière de ses roues omnidirectionnelles. Contrôlé par un Arduino, il utilise quatre moteurs DC pilotés individuellement pour permettre des mouvements de translation, de rotation ou en diagonale avec une grande précision."
+    ],
+    "details": [
+      "Carte de contrôle : Arduino Uno pour le traitement des commandes et la gestion des moteurs.",
+      "Type de moteurs : 4 moteurs DC avec encodeurs pour un contrôle indépendant de chaque roue.",
+      "Roues Mecanum : Permettent une mobilité omnidirectionnelle (déplacement latéral, diagonal, rotation sur place).",
+      "Alimentation : Batterie LiPo 7.4V pour une puissance suffisante et une bonne autonomie.",
+      "Contrôle sans fil : Module Bluetooth HC-05 connecté à une application mobile pour piloter le robot à distance.",
+      "Algorithme de mouvement : Logique de calcul de vitesse pour chaque roue selon le vecteur de déplacement souhaité."
+    ],
+    "skills": [
+      "Programmation embarquée (Arduino C/C++)",
+      "Cinématique robot mobile",
+      "Contrôle moteurs DC",
+      "Communication Bluetooth (HC-05 / HC-06)",
+      "Gestion de l’alimentation embarquée",
+      "électroniques",
+      "Bricolage"
+    ],
+    "media": {
+      "main": {
+        "type": "image",
+        "url": "assets/images/Robot toute ditections/Robot toute directions.jpeg"
+      },
+      "gallery": [
+        {
+          "type": "image",
+        "url": "assets/images/Robot toute ditections/Robot toute directions.jpeg"
+        }
+      ]
+    }
+  },
+  {
+    "title": "ROBOT DETECTEUR D'OBSTACLES",
     "description": [
       "Ce robot est capable de se déplacer dans l'espace via une application téléphone. Il est aussi capable de se déplacer de manière autonome, de détecter des obstacles et de les éviter."
     ],
@@ -54,12 +128,12 @@
    "media": {
       "main": {
         "type": "image",
-        "url": "assets/images/Robot mobile.jpg"
+        "url": "assets/images/robot detecteur obstacles/Robot mobile.jpg"
       },
       "gallery": [
         {
           "type": "image",
-          "url": "assets/images/Robot mobile.jpg"
+          "url": "assets/images/robot detecteur obstacles/Robot mobile.jpg"
         }
       ]
     }
@@ -83,16 +157,12 @@
     "media": {
       "main": {
         "type": "image",
-        "url": "assets/images/recyclage bouteille.jpg"
+        "url": "assets/images/Recyclage bouteilles/recyclage bouteille.jpg"
       },
       "gallery": [
         {
           "type": "image",
-          "url": "assets/images/recyclage-bouteille-1.jpg"
-        },
-        {
-          "type": "video",
-          "url": "assets/videos/recyclage-process.mp4"
+          "url": "assets/images/Recyclage bouteilles/recyclage bouteille.jpg"
         }
       ]
     }
